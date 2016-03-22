@@ -1,0 +1,24 @@
+{
+  "name": "my-gulp-template",
+  "version": "1.0.0",
+  "description": "gulp template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shigemk2/my-gulp-template.git"
+  },
+  "author": "shigemk2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shigemk2/my-gulp-template/issues"
+  },
+  "homepage": "https://github.com/shigemk2/my-gulp-template#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
