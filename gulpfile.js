@@ -1,12 +1,12 @@
 var gulp = require('gulp');
 var browserify = require('browserify');
 var source = require("vinyl-source-stream");
+var babelify = require('babelify');
 
 gulp.task('browserify', function(){
-  var b = browserify({
-    entries: ['./src/example.js']
-  });
-  return b.bundle()
+  return browserify('./src/example.jsx')
+    .transform(babelify,{presets: ["es2015"]})
+    .bundle()
     .pipe(source('example.js'))
     .pipe(gulp.dest('./dist'));
 });
