@@ -1,4 +1,4 @@
-# my-gulp-template
+# my-stream-browserify-sample
 
 主にI/Oにおけるデータの流れを制御するNode.jsのAPIを、ブラウザで動かすためのライブラリ。
 
